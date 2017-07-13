@@ -1,0 +1,184 @@
+INFO [07-04|14:22:56] Starting peer-to-peer node               instance=Geth/v1.6.6-stable-10a45cb5/windows-amd64/go1.8.3
+INFO [07-04|14:22:56] Allocated cache and file handles         database=C:\\Users\\Zack\\AppData\\Roaming\\Ethereum\\geth\\chaindata cache=128 handles=1024
+INFO [07-04|14:22:56] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Metropolis: 9223372036854775807 Engine: ethash}"
+INFO [07-04|14:22:56] Disk storage enabled for ethash caches   dir=C:\\Users\\Zack\\AppData\\Roaming\\Ethereum\\geth\\ethash count=3
+INFO [07-04|14:22:56] Disk storage enabled for ethash DAGs     dir=C:\\Users\\Zack\\AppData\\Ethash                          count=2
+INFO [07-04|14:22:56] Initialising Ethereum protocol           versions="[63 62]" network=1
+INFO [07-04|14:22:56] Loaded most recent local header          number=454727 hash=5186b2…c6f5d0 td=2352355773149481568
+INFO [07-04|14:22:56] Loaded most recent local full block      number=0      hash=d4e567…cb8fa3 td=17179869184
+INFO [07-04|14:22:56] Loaded most recent local fast block      number=449257 hash=6c2eac…0a8e1e td=2314996284012799062
+INFO [07-04|14:22:56] Starting P2P networking 
+INFO [07-04|14:22:58] UDP listener up                          self=enode://b851f8c777a4f123ab1c7522151ccbbd555ec5597d55ab6d898da51347b7fac411cf1c4c02a2bbb1b4c128e5789d582723c8d4c12a9877a63b762c0e4c483d5e@76.172.65.181:30303
+INFO [07-04|14:22:58] RLPx listener up                         self=enode://b851f8c777a4f123ab1c7522151ccbbd555ec5597d55ab6d898da51347b7fac411cf1c4c02a2bbb1b4c128e5789d582723c8d4c12a9877a63b762c0e4c483d5e@76.172.65.181:30303
+INFO [07-04|14:22:58] IPC endpoint opened: \\.\pipe\geth.ipc 
+INFO [07-04|14:22:58] Transaction pool price threshold updated price=18000000000
+INFO [07-04|14:22:58] Starting mining operation 
+INFO [07-04|14:22:58] Commit new mining work                   number=1      txs=0 uncles=0 elapsed=12.034ms
+INFO [07-04|14:22:58] Mapped network port                      proto=udp extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
+INFO [07-04|14:22:58] Mapped network port                      proto=tcp extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
+INFO [07-04|14:23:00] Generating DAG in progress               epoch=0 percentage=0 elapsed=820.682ms
+INFO [07-04|14:23:01] Generating DAG in progress               epoch=0 percentage=1 elapsed=1.581s
+INFO [07-04|14:23:02] Generating DAG in progress               epoch=0 percentage=2 elapsed=2.379s
+INFO [07-04|14:23:02] Generating DAG in progress               epoch=0 percentage=3 elapsed=3.182s
+INFO [07-04|14:23:03] Generating DAG in progress               epoch=0 percentage=4 elapsed=3.998s
+INFO [07-04|14:23:04] Generating DAG in progress               epoch=0 percentage=5 elapsed=4.819s
+INFO [07-04|14:23:05] Generating DAG in progress               epoch=0 percentage=6 elapsed=5.676s
+INFO [07-04|14:23:06] Generating DAG in progress               epoch=0 percentage=7 elapsed=6.543s
+INFO [07-04|14:23:06] Generating DAG in progress               epoch=0 percentage=8 elapsed=7.327s
+INFO [07-04|14:23:07] Generating DAG in progress               epoch=0 percentage=9 elapsed=8.196s
+INFO [07-04|14:23:08] Generating DAG in progress               epoch=0 percentage=10 elapsed=9.055s
+INFO [07-04|14:23:09] Generating DAG in progress               epoch=0 percentage=11 elapsed=9.869s
+INFO [07-04|14:23:10] Generating DAG in progress               epoch=0 percentage=12 elapsed=10.783s
+INFO [07-04|14:23:11] Generating DAG in progress               epoch=0 percentage=13 elapsed=11.587s
+INFO [07-04|14:23:12] Generating DAG in progress               epoch=0 percentage=14 elapsed=12.453s
+INFO [07-04|14:23:12] Generating DAG in progress               epoch=0 percentage=15 elapsed=13.217s
+INFO [07-04|14:23:13] Generating DAG in progress               epoch=0 percentage=16 elapsed=13.986s
+INFO [07-04|14:23:14] Generating DAG in progress               epoch=0 percentage=17 elapsed=14.790s
+INFO [07-04|14:23:15] Generating DAG in progress               epoch=0 percentage=18 elapsed=15.557s
+INFO [07-04|14:23:15] Generating DAG in progress               epoch=0 percentage=19 elapsed=16.324s
+INFO [07-04|14:23:16] Generating DAG in progress               epoch=0 percentage=20 elapsed=17.089s
+INFO [07-04|14:23:17] Generating DAG in progress               epoch=0 percentage=21 elapsed=17.873s
+INFO [07-04|14:23:18] Generating DAG in progress               epoch=0 percentage=22 elapsed=18.655s
+INFO [07-04|14:23:18] Block synchronisation started 
+INFO [07-04|14:23:18] Mining aborted due to sync 
+INFO [07-04|14:23:19] Generating DAG in progress               epoch=0 percentage=23 elapsed=19.439s
+INFO [07-04|14:23:19] Imported new state entries               count=1 flushed=0 elapsed=267.211ms processed=1 pending=17 retry=0 duplicate=0 unexpected=0
+INFO [07-04|14:23:19] Generating DAG in progress               epoch=0 percentage=24 elapsed=20.237s
+INFO [07-04|14:23:20] Generating DAG in progress               epoch=0 percentage=25 elapsed=21.087s
+INFO [07-04|14:23:21] Imported new state entries               count=4 flushed=0 elapsed=1.110s    processed=5 pending=81 retry=0 duplicate=0 unexpected=0
+WARN [07-04|14:23:21] Busy peer assigned new state fetch       peer=b3db51ff38b37622
+WARN [07-04|14:23:21] Stalling state sync, dropping peer       peer=b3db51ff38b37622
+INFO [07-04|14:23:21] Generating DAG in progress               epoch=0 percentage=26 elapsed=21.941s
+INFO [07-04|14:23:22] Generating DAG in progress               epoch=0 percentage=27 elapsed=22.808s
+INFO [07-04|14:23:22] Imported new state entries               count=8 flushed=0 elapsed=746.485ms processed=13 pending=209 retry=2 duplicate=0 unexpected=0
+INFO [07-04|14:23:23] Imported new state entries               count=19 flushed=0 elapsed=563.499ms processed=32 pending=513 retry=0 duplicate=0 unexpected=0
+WARN [07-04|14:23:23] Busy peer assigned new state fetch       peer=b3db51ff38b37622
+INFO [07-04|14:23:23] Imported new block headers               count=0  elapsed=9.525ms   number=449449 hash=2b323b…12ec59 ignored=192
+INFO [07-04|14:23:23] Generating DAG in progress               epoch=0 percentage=28 elapsed=23.784s
+INFO [07-04|14:23:23] Imported new block headers               count=0  elapsed=9.024ms   number=449641 hash=c05412…421f86 ignored=192
+INFO [07-04|14:23:23] Imported new state entries               count=60 flushed=0 elapsed=358.953ms processed=92 pending=1339 retry=4 duplicate=0 unexpected=0
+INFO [07-04|14:23:24] Imported new state entries               count=230 flushed=20 elapsed=120.820ms processed=322 pending=2108 retry=0 duplicate=0 unexpected=0
+INFO [07-04|14:23:24] Imported new block receipts              count=4   elapsed=2.005ms   number=449261 hash=d9ab4a…508ac9 ignored=0
+INFO [07-04|14:23:24] Generating DAG in progress               epoch=0 percentage=29 elapsed=24.684s
+INFO [07-04|14:23:24] Imported new block receipts              count=223 elapsed=106.784ms number=449484 hash=580210…447a86 ignored=0
+INFO [07-04|14:23:24] Imported new state entries               count=384 flushed=372 elapsed=227.104ms processed=706 pending=1854 retry=0 duplicate=0 unexpected=0
+INFO [07-04|14:23:24] Imported new block receipts              count=157 elapsed=189.504ms number=449641 hash=c05412…421f86 ignored=0
+INFO [07-04|14:23:25] Imported new state entries               count=384 flushed=447 elapsed=80.714ms  processed=1090 pending=1510 retry=0 duplicate=0 unexpected=0
+INFO [07-04|14:23:25] Generating DAG in progress               epoch=0 percentage=30 elapsed=25.668s
+WARN [07-04|14:23:25] Busy peer assigned new state fetch       peer=b3db51ff38b37622
+INFO [07-04|14:23:25] Imported new block headers               count=0   elapsed=88.737ms  number=450409 hash=9ed4d9…09b76c ignored=768
+INFO [07-04|14:23:25] Imported new state entries               count=384 flushed=225 elapsed=314.335ms processed=1474 pending=2025 retry=19 duplicate=0 unexpected=0
+INFO [07-04|14:23:26] Imported new block receipts              count=255 elapsed=81.718ms  number=449896 hash=1795b3…c4f95a ignored=0
+INFO [07-04|14:23:26] Imported new block receipts              count=215 elapsed=56.653ms  number=450111 hash=717b66…2dd180 ignored=0
+INFO [07-04|14:23:26] Generating DAG in progress               epoch=0 percentage=31 elapsed=26.611s
+INFO [07-04|14:23:26] Imported new state entries               count=384 flushed=399 elapsed=132.852ms processed=1858 pending=2058 retry=0  duplicate=0 unexpected=0
+INFO [07-04|14:23:26] Imported new state entries               count=384 flushed=224 elapsed=132.853ms processed=2242 pending=2712 retry=0  duplicate=0 unexpected=0
+INFO [07-04|14:23:27] Generating DAG in progress               epoch=0 percentage=32 elapsed=27.506s
+INFO [07-04|14:23:27] Imported new state entries               count=384 flushed=387 elapsed=148.394ms processed=2626 pending=2457 retry=0  duplicate=0 unexpected=0
+WARN [07-04|14:23:27] Busy peer assigned new state fetch       peer=b3db51ff38b37622
+INFO [07-04|14:23:27] Imported new state entries               count=384 flushed=452 elapsed=104.778ms processed=3010 pending=2128 retry=384 duplicate=0 unexpected=0
+INFO [07-04|14:23:28] Generating DAG in progress               epoch=0 percentage=33 elapsed=28.405s
+INFO [07-04|14:23:28] Imported new state entries               count=384 flushed=24  elapsed=397.056ms processed=3394 pending=3367 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:28] Imported new state entries               count=384 flushed=407 elapsed=127.84ms  processed=3778 pending=3083 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:29] Generating DAG in progress               epoch=0 percentage=34 elapsed=29.365s
+INFO [07-04|14:23:29] Imported new state entries               count=384 flushed=434 elapsed=187.999ms processed=4162 pending=2794 retry=0   duplicate=0 unexpected=0
+WARN [07-04|14:23:29] Busy peer assigned new state fetch       peer=b3db51ff38b37622
+INFO [07-04|14:23:29] Imported new state entries               count=384 flushed=430 elapsed=306.815ms processed=4546 pending=2997 retry=384 duplicate=0 unexpected=0
+INFO [07-04|14:23:29] Generating DAG in progress               epoch=0 percentage=35 elapsed=30.232s
+INFO [07-04|14:23:31] Generating DAG in progress               epoch=0 percentage=36 elapsed=31.393s
+INFO [07-04|14:23:31] Imported new state entries               count=384 flushed=291 elapsed=1.365s    processed=4930 pending=4286 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:32] Generating DAG in progress               epoch=0 percentage=37 elapsed=32.503s
+INFO [07-04|14:23:32] Imported new state entries               count=384 flushed=32  elapsed=687.829ms processed=5314 pending=9313 retry=0   duplicate=0 unexpected=0
+WARN [07-04|14:23:32] Busy peer assigned new state fetch       peer=b3db51ff38b37622
+INFO [07-04|14:23:32] Imported new block receipts              count=39  elapsed=9.024ms   number=450150 hash=809eef…1f6a08 ignored=0
+INFO [07-04|14:23:32] Imported new state entries               count=334 flushed=328 elapsed=148.895ms processed=5648 pending=9106 retry=50  duplicate=0 unexpected=0
+INFO [07-04|14:23:32] Imported new block receipts              count=259 elapsed=79.712ms  number=450409 hash=9ed4d9…09b76c ignored=0
+INFO [07-04|14:23:32] Imported new state entries               count=384 flushed=113 elapsed=33.589ms  processed=6032 pending=9763 retry=434 duplicate=0 unexpected=0
+INFO [07-04|14:23:33] Generating DAG in progress               epoch=0 percentage=38 elapsed=33.558s
+INFO [07-04|14:23:33] Imported new state entries               count=384 flushed=387 elapsed=26.571ms  processed=6416 pending=9500 retry=50  duplicate=0 unexpected=0
+INFO [07-04|14:23:33] Imported new state entries               count=384 flushed=480 elapsed=5.013ms   processed=6800 pending=9065 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:34] Imported new state entries               count=384 flushed=483 elapsed=6.016ms   processed=7184 pending=8651 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:34] Generating DAG in progress               epoch=0 percentage=39 elapsed=34.554s
+WARN [07-04|14:23:34] Busy peer assigned new state fetch       peer=b3db51ff38b37622
+INFO [07-04|14:23:34] Imported new state entries               count=384 flushed=317 elapsed=18.048ms  processed=7568 pending=8793 retry=384 duplicate=0 unexpected=0
+INFO [07-04|14:23:34] Imported new state entries               count=384 flushed=126 elapsed=34.591ms  processed=7952 pending=9398 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:35] Generating DAG in progress               epoch=0 percentage=40 elapsed=35.460s
+INFO [07-04|14:23:35] Imported new state entries               count=384 flushed=475 elapsed=6.016ms   processed=8336 pending=8977 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:35] Imported new state entries               count=384 flushed=489 elapsed=6.516ms   processed=8720 pending=8556 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:36] Imported new state entries               count=384 flushed=512 elapsed=5.013ms   processed=9104 pending=8104 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:36] Generating DAG in progress               epoch=0 percentage=41 elapsed=36.448s
+WARN [07-04|14:23:36] Busy peer assigned new state fetch       peer=b3db51ff38b37622
+INFO [07-04|14:23:36] Imported new state entries               count=384 flushed=371 elapsed=28.576ms  processed=9488 pending=8086 retry=384 duplicate=0 unexpected=0
+INFO [07-04|14:23:36] Imported new state entries               count=384 flushed=127 elapsed=68.681ms  processed=9872 pending=8713 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:37] Generating DAG in progress               epoch=0 percentage=42 elapsed=37.380s
+INFO [07-04|14:23:37] Imported new state entries               count=384 flushed=478 elapsed=9.523ms   processed=10256 pending=8295 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:37] Imported new state entries               count=384 flushed=502 elapsed=6.521ms   processed=10640 pending=7855 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:37] Generating DAG in progress               epoch=0 percentage=43 elapsed=38.237s
+INFO [07-04|14:23:37] Imported new state entries               count=384 flushed=508 elapsed=6.516ms   processed=11024 pending=7400 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:38] Imported new state entries               count=384 flushed=255 elapsed=46.624ms  processed=11408 pending=7757 retry=0   duplicate=0 unexpected=0
+WARN [07-04|14:23:38] Busy peer assigned new state fetch       peer=b3db51ff38b37622
+INFO [07-04|14:23:38] Imported new state entries               count=384 flushed=309 elapsed=18.549ms  processed=11792 pending=7836 retry=384 duplicate=0 unexpected=0
+INFO [07-04|14:23:38] Generating DAG in progress               epoch=0 percentage=44 elapsed=39.179s
+INFO [07-04|14:23:39] Imported new state entries               count=384 flushed=100 elapsed=32.085ms  processed=12176 pending=8608 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:39] Imported new state entries               count=384 flushed=476 elapsed=5.514ms   processed=12560 pending=8196 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:39] Generating DAG in progress               epoch=0 percentage=45 elapsed=40.070s
+INFO [07-04|14:23:39] Imported new state entries               count=384 flushed=488 elapsed=5.514ms   processed=12944 pending=7766 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:40] Imported new state entries               count=384 flushed=529 elapsed=6.015ms   processed=13328 pending=7277 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:40] Generating DAG in progress               epoch=0 percentage=46 elapsed=40.960s
+INFO [07-04|14:23:40] Imported new state entries               count=384 flushed=393 elapsed=10.527ms  processed=13712 pending=7147 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:41] Imported new state entries               count=384 flushed=378 elapsed=38.603ms  processed=14096 pending=7048 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:41] Generating DAG in progress               epoch=0 percentage=47 elapsed=41.799s
+INFO [07-04|14:23:41] Imported new state entries               count=384 flushed=376 elapsed=115.307ms processed=14480 pending=6979 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:41] Imported new state entries               count=384 flushed=425 elapsed=8.021ms   processed=14864 pending=6767 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:42] Generating DAG in progress               epoch=0 percentage=48 elapsed=42.687s
+INFO [07-04|14:23:42] Imported new state entries               count=384 flushed=330 elapsed=42.111ms  processed=15248 pending=6846 retry=0   duplicate=0 unexpected=0
+WARN [07-04|14:23:42] Busy peer assigned new state fetch       peer=b3db51ff38b37622
+INFO [07-04|14:23:42] Imported new state entries               count=384 flushed=478 elapsed=7.016ms   processed=15632 pending=6436 retry=384 duplicate=0 unexpected=0
+INFO [07-04|14:23:43] Imported new state entries               count=384 flushed=478 elapsed=6.517ms   processed=16016 pending=6024 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:43] Generating DAG in progress               epoch=0 percentage=49 elapsed=43.594s
+INFO [07-04|14:23:43] Imported new state entries               count=384 flushed=340 elapsed=43.114ms  processed=16400 pending=6194 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:43] Imported new state entries               count=384 flushed=450 elapsed=6.015ms   processed=16784 pending=5823 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:44] Generating DAG in progress               epoch=0 percentage=50 elapsed=44.580s
+INFO [07-04|14:23:44] Imported new state entries               count=384 flushed=363 elapsed=17.045ms  processed=17168 pending=5862 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:44] Imported new state entries               count=384 flushed=467 elapsed=6.015ms   processed=17552 pending=5466 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:45] Imported new state entries               count=384 flushed=253 elapsed=39.103ms  processed=17936 pending=5844 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:45] Generating DAG in progress               epoch=0 percentage=51 elapsed=45.463s
+INFO [07-04|14:23:45] Imported new state entries               count=384 flushed=450 elapsed=5.012ms   processed=18320 pending=5463 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:45] Imported new state entries               count=384 flushed=449 elapsed=57.652ms  processed=18704 pending=5212 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:45] Generating DAG in progress               epoch=0 percentage=52 elapsed=46.332s
+INFO [07-04|14:23:46] Imported new state entries               count=384 flushed=348 elapsed=14.037ms  processed=19088 pending=5224 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:46] Imported new state entries               count=384 flushed=461 elapsed=17.045ms  processed=19472 pending=4873 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:46] Generating DAG in progress               epoch=0 percentage=53 elapsed=47.292s
+INFO [07-04|14:23:46] Imported new state entries               count=384 flushed=264 elapsed=16.543ms  processed=19856 pending=5216 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:47] Imported new state entries               count=384 flushed=466 elapsed=16.536ms  processed=20240 pending=4809 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:47] Generating DAG in progress               epoch=0 percentage=54 elapsed=48.172s
+INFO [07-04|14:23:47] Imported new state entries               count=384 flushed=418 elapsed=10.528ms  processed=20624 pending=4634 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:48] Imported new state entries               count=384 flushed=394 elapsed=11.029ms  processed=21008 pending=4525 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:48] Imported new state entries               count=384 flushed=402 elapsed=8.521ms   processed=21392 pending=4364 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:48] Generating DAG in progress               epoch=0 percentage=55 elapsed=49.079s
+INFO [07-04|14:23:48] Imported new state entries               count=384 flushed=363 elapsed=11.529ms  processed=21776 pending=4316 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:49] Imported new state entries               count=384 flushed=428 elapsed=19.050ms  processed=22160 pending=4605 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:49] Generating DAG in progress               epoch=0 percentage=56 elapsed=49.998s
+INFO [07-04|14:23:49] Imported new state entries               count=384 flushed=214 elapsed=30.581ms  processed=22544 pending=5062 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:50] Imported new state entries               count=384 flushed=471 elapsed=6.015ms   processed=22928 pending=4654 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:50] Imported new state entries               count=384 flushed=480 elapsed=7.018ms   processed=23312 pending=4287 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:50] Generating DAG in progress               epoch=0 percentage=57 elapsed=50.975s
+INFO [07-04|14:23:50] Imported new state entries               count=384 flushed=259 elapsed=20.052ms  processed=23696 pending=4593 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:51] Imported new state entries               count=384 flushed=471 elapsed=5.013ms   processed=24080 pending=4176 retry=0   duplicate=0 unexpected=0
+WARN [07-04|14:23:51] Busy peer assigned new state fetch       peer=b3db51ff38b37622
+INFO [07-04|14:23:51] Generating DAG in progress               epoch=0 percentage=58 elapsed=51.895s
+INFO [07-04|14:23:51] Imported new state entries               count=384 flushed=394 elapsed=54.645ms  processed=24464 pending=5286 retry=384 duplicate=0 unexpected=0
+INFO [07-04|14:23:52] Imported new state entries               count=384 flushed=155 elapsed=21.056ms  processed=24848 pending=5837 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:52] Generating DAG in progress               epoch=0 percentage=59 elapsed=52.779s
+INFO [07-04|14:23:52] Imported new state entries               count=384 flushed=505 elapsed=6.518ms   processed=25232 pending=5384 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:52] Imported new state entries               count=384 flushed=540 elapsed=6.517ms   processed=25616 pending=4891 retry=0   duplicate=0 unexpected=0
+INFO [07-04|14:23:53] Got interrupt, shutting down... 
+INFO [07-04|14:23:53] IPC endpoint closed: \\.\pipe\geth.ipc 
+INFO [07-04|14:23:53] Blockchain manager stopped 
+INFO [07-04|14:23:53] Stopping Ethereum protocol 
+INFO [07-04|14:23:53] Ethereum protocol stopped 
+INFO [07-04|14:23:53] Transaction pool stopped 
+WARN [07-04|14:23:53] Synchronisation failed, retrying         err="receipt download canceled (requested)"
+INFO [07-04|14:23:53] Database closed                          database=C:\\Users\\Zack\\AppData\\Roaming\\Ethereum\\geth\\chaindata
+WARN [07-04|14:23:53] Already shutting down, interrupt more to panic. times=9
+INFO [07-04|14:23:53] Generating DAG in progress               epoch=0 percentage=60 elapsed=53.692s
